@@ -2,7 +2,7 @@
 $(document).on("click", "#camera",function(){
 
 navigator.camera.getPicture(onSuccess, Onfail , { quality: 50,
-    destinationType: Camera.destinationType.FILE_URI
+    destinationType: Camera.destinationType.FILE_URI,
     
     correctOrientation: true,
     saveToPhotoAlbum: true
